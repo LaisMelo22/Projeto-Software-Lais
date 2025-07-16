@@ -11,8 +11,8 @@ def criar_evento(nome, local, data_str):
         "nome": nome,
         "local": local,
         "data_hora": data_hora,
-        "participantes": [],  # lista de dicionários
-        "fornecedores": set(),  # conjunto para evitar duplicatas
+        "participantes": [],  
+        "fornecedores": set(), 
         "ativo": True
     }
     eventos.append(evento)
